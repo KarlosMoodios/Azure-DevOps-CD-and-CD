@@ -1,20 +1,37 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Hangman game
+### Table of Contents:
+    1. A description of the project
+    2. Installation instructions
+    3. Usage instructions
+    4. File structure of the project
+    5. License information 
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+1. A description of the project: 
+    - What it does:
+        - Hangman is a game wherein the CPU will choose a predetermined word for the PLAYER to guess.
+        - The player gets 7 chances to guess a correct letter in the word. One each for the gallow post, noose, head and body. Two each for the legs and arms.
+        - If the player guesses the word before all chances are expended, the man to be hanged is saved.
+        - If the player runs out of chances to get the right letters, the man gets hanged.
+    - The aim of the project:
+        - The aim of this project is to familiarise myself with classes, methods and atributes off those classes, functions and modules. Also to gain more experience working with git, github, branches and merging as well as other version control benefits.
+    - What you learned:
+        - So far I have learned:
+            - Python is a much higher level language than I was aware of. My first attempt at this game was structured as C++ with pythonic syntax to a PEP8 standard for the most part.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+1. Installation instructions
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+1. Usage instructions
+    - Enter your name
+    - Read the prompts
+    - Enter your guess
+    - Win or lose! 
+    - Most importantly, HAVE FUN!
+1. File structure of the project
+    - milestone_2.py - Bug galore - First attempt
+    - milestone_3.py - Back on track
+    - milestone_4.py - Everything built 
+    - milestone_5.py - Full game (bug free) 
+    - topics.py - The topics and words to guess
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+1. License information 
+    ##### __Copyright Karlos Moodios. All rights reserved.__
